@@ -1,0 +1,13 @@
+.noticeAdd{
+    margin-top: 20px;
+}
+
+.noticeAdd button{
+    float: right;
+    padding: 0;
+}
+
+.noticeAdd button a{
+    display: inline-block;
+    padding: .8em 1.2em;
+}

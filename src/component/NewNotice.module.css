@@ -1,0 +1,104 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.removePop{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+}
+
+.removePop span{
+    height: 10px;
+}
+
+
+.inputLabel{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1.2em .8em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    outline: none;
+    resize: none;
+    font-size: 1em;
+    color: rgb(49, 49, 49);
+}
+
+textarea{
+    font-size: 1.2em;
+}
+
+
+/* 버튼 */
+.submitBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn{
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+}
+
+.btn a{
+    color: #1976d2;
+    text-decoration: none;
+}
+
+.btn a,
+.removeBtn{
+    padding: .6em 1.4em ;
+    transition: all .2s;
+    border-radius: 5px;
+}
+
+.btn a:hover,
+.removeBtn:hover{
+    background-color: #eee;
+}
+
+.removeBtn{
+    color: #ee1f1f;
+}
+
+/* 보기 페이지 */
+.noticeViewHeader{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.2em;
+    border-bottom: 1px solid #ddd;
+}
+
+.titleText{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.userNameText{
+    align-self: flex-end;
+}
+
+.noticeContentText{
+    padding: 2.4em 0;
+    text-align: left;
+}
+
+.btnBox{
+    display: flex;
+    justify-content: end;
+}
